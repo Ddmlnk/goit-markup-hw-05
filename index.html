@@ -457,6 +457,59 @@
           </ul>
         </div>
       </section>
+      <div id="modal" class="modal-backbrop is-open">
+        <div class="modal">
+          <div class="modal-close-btn-wrapper">
+            <svg class="modal-close-btn" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </div>
+
+          <h2 class="modal-text">
+            Leave your contacts and we will call you back
+          </h2>
+          <form action="" class="modal-form">
+            <div class="modal-form-field">
+              <label for="" class="modal-form-field-label">Name</label
+              ><input type="text" class="modal-form-field-input" />
+            </div>
+            <div class="modal-form-field">
+              <label for="" class="modal-form-field-label">Phone</label
+              ><input type="number" class="modal-form-field-input" />
+            </div>
+            <div class="modal-form-field">
+              <label for="" class="modal-form-field-label">Email</label
+              ><input type="email" class="modal-form-field-input" />
+            </div>
+            <div class="modal-form-field">
+              <label for="" class="modal-form-field-label">Comment</label>
+              <textarea name="" id=""></textarea>
+            </div>
+            <div class="modal-form-field-checkbox">
+              <input
+                type="checkbox"
+                class="original-checkbox"
+                name="privacy-policy"
+                id="privacy-policy"
+              />
+              <label for="privacy-policy" class="privacy-policy-label">
+                <span class="custom-checkbox">
+                  <svg class="custom-checkbox-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-check-mark"></use>
+                  </svg>
+                </span>
+                <span class="privacy-policy-description">
+                  I accept the terms and conditions of the
+                  <a href="#" class="privacy-policy-link"
+                    >Privacy Policy</a
+                  ></span
+                >
+              </label>
+            </div>
+            <button class="modal-form-btn-submit">Send</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer id="footer" class="page-footer">
       <div class="container">
@@ -501,6 +554,25 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe-wrapper">
+          <p class="subscribe-title">Subscribe</p>
+          <form action="submit" class="subscribe-form">
+            <input
+              type="email"
+              id="email"
+              class="subscribe-form-input"
+              placeholder="E-mail"
+              name="email"
+              required
+            />
+            <button class="subscribe-form-btn">
+              Subscribe
+              <svg class="subscribe-form-btn-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-illustration"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
