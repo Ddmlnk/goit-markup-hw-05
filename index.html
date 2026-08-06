@@ -504,14 +504,13 @@
         </div>
         <div class="subscribe-wrapper">
           <p class="subscribe-title">Subscribe</p>
-          <form action="submit" class="subscribe-form">
+          <form class="subscribe-form">
             <input
               type="email"
               id="email"
               class="subscribe-form-input"
               placeholder="E-mail"
               name="email"
-              required
             />
             <button type="submit" class="subscribe-form-btn">
               Subscribe
@@ -525,16 +524,14 @@
     </footer>
     <div id="modal" class="modal-backbrop is-open">
       <div class="modal">
-        <div class="modal-close-btn-wrapper">
-          <svg class="modal-close-btn" width="8" height="8">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-btn-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
-        </div>
+        </button>
 
-        <h2 class="modal-text">
-          Leave your contacts and we will call you back
-        </h2>
-        <form action="" class="modal-form">
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
           <div class="modal-form-field">
             <label for="name" class="modal-form-field-label">Name</label
             ><input
@@ -547,18 +544,18 @@
           <div class="modal-form-field">
             <label for="number" class="modal-form-field-label">Phone</label
             ><input
-              type="number"
+              type="tel"
               name="number"
               id="number"
               class="modal-form-field-input"
             />
           </div>
           <div class="modal-form-field">
-            <label for="email" class="modal-form-field-label">Email</label
+            <label for="email_modal" class="modal-form-field-label">Email</label
             ><input
               type="email"
-              name="email"
-              id="email"
+              name="email_modal"
+              id="email_modal"
               class="modal-form-field-input"
             />
           </div>
