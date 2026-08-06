@@ -35,7 +35,7 @@
 }
 
 .footer-socials-wrapper {
-  margin-right: 80px;
+  /* removed extra margin-right so the subscribe block can align to the far right */
 }
 
 .footer-socials {
@@ -66,6 +66,10 @@
 .footer-socials-list-item-link:hover,
 .footer-socials-list-item-link:focus {
   background-color: rgb(49, 208, 170);
+}
+
+.subscribe-wrapper {
+  margin-left: auto;
 }
 
 .subscribe-title {

@@ -111,7 +111,7 @@
 
 .modal-form-field-input {
   width: 100%;
-  padding: 8px 16px 8px 40px;
+  padding: 8px 16px 8px 48px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
@@ -131,7 +131,7 @@
 
 .modal-form-field-svg {
   position: absolute;
-  left: 8px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
   fill: #2e2f42;
@@ -146,14 +146,13 @@
 /* ===== Comment textarea ===== */
 
 .modal-form-textarea {
-  margin-top: 4px;
   resize: none;
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   outline: transparent;
   padding: 8px 16px;
-  background-color: #fff;
+  background-color: #fcfcfc;
   color: #434455;
   font-size: 12px;
   font-weight: 400;
@@ -179,8 +178,8 @@
 /* ===== Custom checkbox ===== */
 
 .modal-form-field-checkbox {
-  margin-top: 16px;
-  margin-bottom: 24px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .original-checkbox {
@@ -209,7 +208,7 @@
   justify-content: center;
   width: 16px;
   height: 16px;
-  border: 1px solid #2e2f42;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   background-color: transparent;
   transition:
@@ -224,8 +223,8 @@
 }
 
 .original-checkbox:checked + .privacy-policy-label .custom-checkbox {
-  background-color: #4d5ae5;
-  border-color: #4d5ae5;
+  background-color: #404bbf;
+  border-color: #404bbf;
 }
 
 .original-checkbox:checked + .privacy-policy-label .custom-checkbox-icon {
